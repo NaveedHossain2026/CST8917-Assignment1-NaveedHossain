@@ -26,7 +26,7 @@ In conclusion, although serverless computing appears very effective and scalable
 Azure Durable Functions introduces a three-tier model composed of client, orchestrator, and activity functions. The client function initiates the orchestration workflow, the orchestrator functions manage the workflow logic, such as the order of steps, branching, parallel tasks, and waiting for events, and the Activity functions perform the actual work, such as calling APIs, accessing databases, or processing data. This is different from basic serverless functions (FaaS), where each function runs independently, and none of them can retain any data between executions. Durable Functions keeps track of the whole workflow through the orchestrator, allowing serverless apps to support long-running and stateful processes. (Microsoft Learn – Durable Orchestrations; Keyhole Software) 
 
 
-### State Management
+### State Management 
 
 Rather than storing a snapshot of the current state, Azure Durable Functions records every step of a workflow in an event history stored in Azure Storage. When the workflow resumes after a restart or checkpoint, it replays these recorded events to rebuild its state and continue where it left off. This addresses one of the main issues faced by traditional serverless functions since these functions are stateless and cannot maintain any information between executions. With event sourcing and checkpointing, it becomes possible to execute durable workflows that can span several minutes or even several days without failing. To ensure the replay process works correctly, orchestrator functions must produce the same results every time they are replayed.
 
