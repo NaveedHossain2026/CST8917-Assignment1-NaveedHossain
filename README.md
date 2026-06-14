@@ -23,7 +23,7 @@ In conclusion, although serverless computing appears very effective and scalable
 
 ### Orchestration Model
 
-Azure Durable Functions introduces a three-tier model composed of client, orchestrator, and activity functions. The client function initiates the orchestration workflow, the orchestrator functions manage the workflow logic, such as the order of steps, branching, parallel tasks, and waiting for events, and the Activity functions perform the actual work, such as calling APIs, accessing databases, or processing data. This is different from basic serverless functions (FaaS), where each function runs independently, and none of them can retain any data between executions. Durable Functions keeps track of the whole workflow through the orchestrator, allowing serverless apps to support long-running and stateful processes. (Microsoft Learn – Durable Orchestrations (2026), Keyhole Software) 
+Azure Durable Functions introduces a three-tier model composed of client, orchestrator, and activity functions. The client function initiates the orchestration workflow, the orchestrator functions manage the workflow logic, such as the order of steps, branching, parallel tasks, and waiting for events, and the Activity functions perform the actual work, such as calling APIs, accessing databases, or processing data. This is different from basic serverless functions (FaaS), where each function runs independently, and none of them can retain any data between executions. Durable Functions keeps track of the whole workflow through the orchestrator, allowing serverless apps to support long-running and stateful processes. (Microsoft Learn – Durable Orchestrations (2026), Rice (2025)) 
 
 
 ### State Management 
