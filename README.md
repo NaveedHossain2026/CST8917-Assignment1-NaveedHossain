@@ -59,15 +59,15 @@ Another limitation, only partially addressed, is communication between functions
 
 Hellerstein, J. M., Faleiro, J., Gonzalez, J. E., Schleier-Smith, J., Sreekanti, V., Tumanov, A., & Wu, C. (2019). Serverless Computing: One Step Forward, Two Steps Back. CIDR 2019. https://www.cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf
 
-Microsoft Learn. (2026). Durable orchestrations – Azure Durable Functions. https://docs.azure.cn/en-us/azure-functions/durable/durable-functions-orchestrations
+Microsoft Learn. (2026). Durable orchestrations. https://docs.azure.cn/en-us/azure-functions/durable/durable-functions-orchestrations
 
-Microsoft Learn. (2026). Fan-out/fan-in scenarios in Durable Functions – Azure. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-fan-in-fan-out
+Microsoft Learn. (2026). Fan-out/fan-in scenarios in Durable Functions. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-fan-in-fan-out
 
-Microsoft Learn. (2026). Performance and scale in Durable Functions – Azure. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-perf-and-scale 
+Microsoft Learn. (2026). Performance and scale in Durable Functions. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-perf-and-scale 
 
 Keyhole Software. (2025). Long-Running Workflows Made Simple with C# + Azure Durable Functions. https://keyholesoftware.com/long-running-workflows-made-simple-with-c-azure-durable-functions/
 
-SystemsArchitect.io. (2025). Need for GPU or specialized hardware acceleration – Azure Functions. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-seek-alternatives-if-you-need-need-for-gpu-or-specialized-hardware-acceleration
+SystemsArchitect.io. (2025). Need for GPU or specialized hardware acceleration. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-seek-alternatives-if-you-need-need-for-gpu-or-specialized-hardware-acceleration
 
 
 
