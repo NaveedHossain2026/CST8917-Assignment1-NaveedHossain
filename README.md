@@ -2,7 +2,7 @@
 
 **Student Name**: Naveed Hossain             **Student ID**: 0410818822 
 **Course**: CST8917 - Serverless Applications
- **Date**: June 14 2026
+**Date**: June 14 2026
 
 ## Part 1: Paper Summary
 
