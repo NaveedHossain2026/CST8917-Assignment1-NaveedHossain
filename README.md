@@ -53,7 +53,7 @@ One limitation that remains largely unresolved is the data shipping anti-pattern
 
 A second limitation that remains unresolved is limited access to specialized hardware. The paper notes that serverless platforms do not provide direct access to the hardware associated with machine learning and high-performance computing, including GPUs and FPGAs. Azure Durable Functions does not solve this issue because it is designed to coordinate workflows, not provide computing resources. While activity functions can call external services that use GPUs, Durable Functions itself does not offer native access to specialized hardware. As a result, applications that require GPU acceleration must still rely on other services, such as Azure Machine Learning or Azure Kubernetes Service, making the solution more complex.
 
-Another limitation that is only partially addressed is communication between functions. Durable Functions makes it easier for orchestrator functions to coordinate activity functions. However, communication still relies on storage and messaging services behind the scenes. While this simplifies development, it does not completely solve the paper’s concern that storage-based communication can cause delays and reduce performance. 
+Another limitation, only partially addressed, is communication between functions. Durable Functions makes it easier for orchestrator functions to coordinate activity functions. However, communication still relies on storage and messaging services behind the scenes. While this simplifies development, it does not completely solve the paper’s concern that storage-based communication can cause delays and reduce performance. 
  
  Overall, Azure Durable Functions is a major improvement over traditional FaaS platforms. It adds support for long-running workflows, stateful execution, orchestration, and parallel processing, which helps address many of the limitations discussed in the paper. However, it does not completely solve all of the problems with serverless computing. Challenges such as moving large amounts of data, relying on storage for communication,  and limited access to specialized hardware still exist. As a result, Durable Functions should be seen as an improvement to serverless computing rather than a complete solution. It shows that serverless technology has advanced, but some of the core limitations identified in the paper remain. 
 
@@ -62,5 +62,12 @@ Hellerstein, J. M., Faleiro, J., Gonzalez, J. E., Schleier-Smith, J., Sreekanti,
 Microsoft Learn. (2026). Durable orchestrations – Azure Durable Functions. https://docs.azure.cn/en-us/azure-functions/durable/durable-functions-orchestrations
 
 Microsoft Learn. (2026). Fan-out/fan-in scenarios in Durable Functions – Azure. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-fan-in-fan-out
+
+Microsoft Learn. (2026). Performance and scale in Durable Functions – Azure. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-perf-and-scale 
+
+Keyhole Software. (2025). Long-Running Workflows Made Simple with C# + Azure Durable Functions. https://keyholesoftware.com/long-running-workflows-made-simple-with-c-azure-durable-functions
+
+SystemsArchitect.io. (2025). Need for GPU or specialized hardware acceleration – Azure Functions. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-
+
 
 
