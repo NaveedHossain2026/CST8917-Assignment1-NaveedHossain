@@ -28,7 +28,7 @@ Azure Durable Functions introduces a three-tier model composed of client, orches
 
 ### State Management 
 
-Rather than storing a snapshot of the current state, Azure Durable Functions records every step of a workflow in an event history stored in Azure Storage. When the workflow resumes after a restart or checkpoint, it replays these recorded events to rebuild its state and continue where it left off. This addresses one of the main issues faced by traditional serverless functions since these functions are stateless and cannot maintain any information between executions. With event sourcing and checkpointing, it becomes possible to execute durable workflows that can span several minutes or even several days without failing. To ensure the replay process works correctly, orchestrator functions must produce the same results every time they are replayed. (Microsoft Learn – Durable Orchestrations (2026) )
+Rather than storing a snapshot of the current state, Azure Durable Functions records every step of a workflow in an event history stored in Azure Storage. When the workflow resumes after a restart or checkpoint, it replays these recorded events to rebuild its state and continue where it left off. This addresses one of the main issues faced by traditional serverless functions since these functions are stateless and cannot maintain any information between executions. With event sourcing and checkpointing, it becomes possible to execute durable workflows that can span several minutes or even several days without failing. To ensure the replay process works correctly, orchestrator functions must produce the same results every time they are replayed. (Microsoft Learn – Durable Orchestrations (2026))
 
 
 ### Execution Timeouts
