@@ -69,6 +69,8 @@ Another limitation, only partially addressed, is communication between functions
 7. Rice, R. (2025). Long-Running Workflows Made Simple with C# + Azure Durable Functions. Keyhole Software. Available at: https://keyholesoftware.com/long-running-workflows-made-simple-with-c-azure-durable-functions/
 8. SystemsArchitect.io. (2026). Need for GPU or specialized hardware acceleration. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-seek-alternatives-if-you-need-need-for-gpu-or-specialized-hardware-acceleration
 
+## AI Disclosure Statement
 
+I used ChatGPT to assist with understanding and summarizing the research paper, organizing the structure of the assignment, simplifying technical explanations, and improving the clarity and grammar of my writing.
 
 
