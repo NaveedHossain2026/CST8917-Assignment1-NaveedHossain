@@ -33,7 +33,7 @@ Rather than storing a snapshot of the current state, Azure Durable Functions rec
 
 ### Execution Timeouts
 
-The orchestrator function in Azure Durable Functions is not constrained by the time-out of Azure functions. Rather than running indefinitely, they make checkpoints, pause, and resume after an event trigger, enabling workflows that may last for hours, days, or even weeks to run without timeouts. However, activity functions still have execution time limits.  Developers can also use durable timers to set custom timeouts for activities or workflows.
+The orchestrator function in Azure Durable Functions is not constrained by the time-out of Azure functions. Rather than running indefinitely, they make checkpoints, pause, and resume after an event trigger, enabling workflows that may last for hours, days, or even weeks to run without timeouts. However, activity functions still have execution time limits.  Developers can also use durable timers to set custom timeouts for activities or workflows. (Microsoft Learn – Performance and Scale (2026))
 
  
 ### Communication Between Functions
