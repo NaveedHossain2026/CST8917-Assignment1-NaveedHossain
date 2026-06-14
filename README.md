@@ -1,5 +1,10 @@
 # Assignment 1: Serverless Computing - Critical Analysis
 
+**Student Name**: Naveed Hossain             **Student ID**: 0410818822 
+**Course**: CST8917 - Serverless Applications
+**Semester**: Summer 2026
+**Date**: June 14 2026
+
 ## Part 1: Paper Summary
 
 According to the article “Serverless Computing: One Step Forward, Two Steps Back,” by Hellerstein et al., serverless computing enhances cloud usability by eliminating the need for infrastructure management and enabling automatic scalability. However, serverless computing has its drawbacks, as it cannot be used in situations involving large volumes of data. The title “One Step Forward, Two Steps Back” implies that although serverless computing makes it easier for the user, it takes one step backward in terms of performance.
