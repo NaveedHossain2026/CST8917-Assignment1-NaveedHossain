@@ -65,9 +65,10 @@ Microsoft Learn. (2026). Fan-out/fan-in scenarios in Durable Functions – Azure
 
 Microsoft Learn. (2026). Performance and scale in Durable Functions – Azure. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-perf-and-scale 
 
-Keyhole Software. (2025). Long-Running Workflows Made Simple with C# + Azure Durable Functions. https://keyholesoftware.com/long-running-workflows-made-simple-with-c-azure-durable-functions
+Keyhole Software. (2025). Long-Running Workflows Made Simple with C# + Azure Durable Functions. https://keyholesoftware.com/long-running-workflows-made-simple-with-c-azure-durable-functions/
 
-SystemsArchitect.io. (2025). Need for GPU or specialized hardware acceleration – Azure Functions. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-
+SystemsArchitect.io. (2025). Need for GPU or specialized hardware acceleration – Azure Functions. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-seek-alternatives-if-you-need-need-for-gpu-or-specialized-hardware-acceleration
+
 
 
 
