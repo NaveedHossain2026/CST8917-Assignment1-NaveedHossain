@@ -28,7 +28,7 @@ Azure Durable Functions introduces a three-tier model composed of client, orches
 
 ### State Management 
 
-Rather than storing a snapshot of the current state, Azure Durable Functions records every step of a workflow in an event history stored in Azure Storage. When the workflow resumes after a restart or checkpoint, it replays these recorded events to rebuild its state and continue where it left off. This addresses one of the main issues faced by traditional serverless functions since these functions are stateless and cannot maintain any information between executions. With event sourcing and checkpointing, it becomes possible to execute durable workflows that can span several minutes or even several days without failing. To ensure the replay process works correctly, orchestrator functions must produce the same results every time they are replayed.
+Rather than storing a snapshot of the current state, Azure Durable Functions records every step of a workflow in an event history stored in Azure Storage. When the workflow resumes after a restart or checkpoint, it replays these recorded events to rebuild its state and continue where it left off. This addresses one of the main issues faced by traditional serverless functions since these functions are stateless and cannot maintain any information between executions. With event sourcing and checkpointing, it becomes possible to execute durable workflows that can span several minutes or even several days without failing. To ensure the replay process works correctly, orchestrator functions must produce the same results every time they are replayed. (Microsoft Learn – Durable Orchestrations)
 
 
 ### Execution Timeouts
@@ -38,11 +38,12 @@ The orchestrator function in Azure Durable Functions is not constrained by the t
  
 ### Communication Between Functions
 
-In standard FaaS, functions don’t communicate directly with each other. They usually communicate through external storage systems like S3 or DynamoDB, which adds latency. Durable Functions improve this by letting orchestrator functions work together to invoke activity functions through the Durable Task Framework. The framework automatically handles messaging, state tracking, and execution history, so developers do not have to create any storage-based message communication mechanism. However, communication still depends on some backend storage services like Azure Storage.  So, while Durable Functions makes communication much easier and more structured, it still relies on storage and does not allow for direct communication between functions.
+In standard FaaS, functions don’t communicate directly with each other. They usually communicate through external storage systems like S3 or DynamoDB, which adds latency. Durable Functions improve this by letting orchestrator functions work together to invoke activity functions through the Durable Task Framework. The framework automatically handles messaging, state tracking, and execution history, so developers do not have to create any storage-based message communication mechanism. However, communication still depends on some backend storage services like Azure Storage.  So, while Durable Functions makes communication much easier and more structured, it still relies on storage and does not allow for direct communication between functions.  (Microsoft Learn – Performance and Scale)
+
 
 ### Parallel Execution (Fan-Out/Fan-In)
 
-Durable Functions supports the fan-out/fan-in pattern, which lets an orchestrator run multiple functions in parallel and then aggregate the results. This approach helps process large amounts of data and enhance performance through parallel processing. It helps address some of the issues in the paper concerning distributed computing by providing a built-in way to coordinate parallel tasks without requiring developers to manually handle messaging, synchronization, or state management. Although it does not completely resolve all challenges of distributed systems, it makes serverless workflow development much easier.
+Durable Functions supports the fan-out/fan-in pattern, which lets an orchestrator run multiple functions in parallel and then aggregate the results. This approach helps process large amounts of data and enhance performance through parallel processing. It helps address some of the issues in the paper concerning distributed computing by providing a built-in way to coordinate parallel tasks without requiring developers to manually handle messaging, synchronization, or state management. Although it does not completely resolve all challenges of distributed systems, it makes serverless workflow development much easier. (Microsoft Learn – Fan-Out/Fan-In)
 
 
 ## Part 3: Critical Evaluation
