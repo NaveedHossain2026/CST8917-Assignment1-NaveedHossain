@@ -57,6 +57,8 @@ Another limitation, only partially addressed, is communication between functions
  
  Overall, Azure Durable Functions is a major improvement over traditional FaaS platforms. It adds support for long-running workflows, stateful execution, orchestration, and parallel processing, which helps address many of the limitations discussed in the paper. However, it does not completely solve all of the problems with serverless computing. Challenges such as moving large amounts of data, relying on storage for communication,  and limited access to specialized hardware still exist. As a result, Durable Functions should be seen as an improvement to serverless computing rather than a complete solution. It shows that serverless technology has advanced, but some of the core limitations identified in the paper remain. 
 
+ ## References
+
 1. Hellerstein, J. M., Faleiro, J., Gonzalez, J. E., Schleier-Smith, J., Sreekanti, V., Tumanov, A., & Wu, C. (2019). Serverless Computing: One Step Forward, Two Steps Back. CIDR 2019. https://www.cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf
 2. Microsoft Learn. (2025). Azure Durable Functions Overview. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview
 3. Microsoft Learn. (2026). Durable orchestrations. https://docs.azure.cn/en-us/azure-functions/durable/durable-functions-orchestrations
