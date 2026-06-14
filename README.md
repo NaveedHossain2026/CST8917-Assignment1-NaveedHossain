@@ -67,7 +67,7 @@ Another limitation, only partially addressed, is communication between functions
 5. Microsoft Learn. (2026). Fan-out/fan-in scenarios in Durable Functions. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-fan-in-fan-out
 6. Microsoft Learn. (2026). Performance and scale in Durable Functions. https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-perf-and-scale 
 7. Keyhole Software. (2025). Long-Running Workflows Made Simple with C# + Azure Durable Functions. https://keyholesoftware.com/long-running-workflows-made-simple-with-c-azure-durable-functions/
-8. SystemsArchitect.io. (2025). Need for GPU or specialized hardware acceleration. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-seek-alternatives-if-you-need-need-for-gpu-or-specialized-hardware-acceleration
+8. SystemsArchitect.io. (2026). Need for GPU or specialized hardware acceleration. https://www.systemsarchitect.io/services/azure-functions/seek-alternatives-if-you-need/pt/azure-functions-seek-alternatives-if-you-need-need-for-gpu-or-specialized-hardware-acceleration
 
 
 
